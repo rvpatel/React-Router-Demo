@@ -6,9 +6,17 @@ export function Home() {
     <div>
       <h1>[Company Website]</h1>
       <nav>
-        <Link to="about">About</Link>
-        <Link to="events">Events</Link>
-        <Link to="contact">Contact</Link>
+        <ul>
+          <li>
+            <Link to="about">About</Link>
+          </li>
+          <li>
+            <Link to="events">Events</Link>
+          </li>
+          <li>
+            <Link to="contact">Contact</Link>
+          </li>
+        </ul>
       </nav>
     </div>
   );
